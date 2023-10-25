@@ -43,16 +43,12 @@ body {
     padding-left: 1rem;
 }
 
-#set-information {
+.set-information {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 2rem;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    justify-content: space-around;
 }
 
-#description-section {
+#set-description {
     display: flex;
     flex-direction: column;
     gap: 2em;
@@ -83,17 +79,21 @@ body {
 }
 
 #item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     list-style-type: none;
     overflow-y: auto;
 }
 
 
 .text-item {
-    width: 100%;
     min-height: 200px;
 }
 
 .text-term {
+
 }
 
 .text-definition {
